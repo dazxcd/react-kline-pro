@@ -1,0 +1,10 @@
+.idea
+.git
+src
+examples
+node_modules
+.babelrc
+.gitignore
+.npmignore
+webpack.config.js
+demo_dist
