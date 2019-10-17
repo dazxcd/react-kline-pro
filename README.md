@@ -1,6 +1,4 @@
-# react-kline     [![npm version](https://badge.fury.io/js/react-kline.svg)](https://badge.fury.io/js/react-kline)
-
-[![NPM](https://nodei.co/npm/react-kline.png)](https://www.npmjs.com/package/react-kline)
+# react-kline-pro
 
 > 基于React的K线图组件
 
@@ -13,7 +11,7 @@
 安装
 
 ```bash
-$ npm install react-kline
+$ npm install react-kline-pro
 ```
 
 * 使用
@@ -63,8 +61,8 @@ $ npm install react-kline
 |`theme` | 主题 dark(暗色)/light(亮色)| dark
 |`language` | 语言 zh-cn(简体中文)/en-us(英文)/zh-tw(繁体中文)| zh-cn
 |`ranges` | 聚合选项 1w/1d/12h/6h/4h/2h/1h/30m/15m/5m/3m/1m/line (w:周, d:天, h:小时, m:分钟, line:分时数据)| ["1w", "1d", "1h", "30m", "15m", "5m", "1m", "line"]
-|`symbol` | 交易代号| 
-|`symbolName`  | 交易名称 | 
+|`symbol` | 交易代号|
+|`symbolName`  | 交易名称 |
 |`limit`  | 分页大小 | 1000
 |`intervalTime`  | 请求间隔时间(ms) | 3000
 |`debug` | 是否开启调试模式 true/false |  true
@@ -105,7 +103,7 @@ setTheme('dark');  // dark/light
 setLanguage('en-us');  // en-us/zh-ch/zh-tw
 ```
 
-* setIntervalTime: function (intervalTime) 
+* setIntervalTime: function (intervalTime)
 
     设置请求间隔时间(ms)
 
